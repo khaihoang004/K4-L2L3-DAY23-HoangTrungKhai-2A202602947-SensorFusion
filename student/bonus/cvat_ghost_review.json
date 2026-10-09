@@ -1,0 +1,37 @@
+{
+  "segment": "training_segment-10072231702153043603_5725_000_5745_000_with_camera_labels.tfrecord",
+  "waymo_frames": [
+    143,
+    155
+  ],
+  "task_frames_one_based": [
+    1,
+    13
+  ],
+  "ghost_waymo_frames": [
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153
+  ],
+  "ghost_task_frames_one_based": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "platform_track_id": 8,
+  "mot_track_id": 9,
+  "example": "Waymo frame 146 = task image 000004.jpg; no valid GT vehicle, confirmed track #8 persists",
+  "images_directory": "data/cvat_bonus/training_segment-10072231702153043603_5725_000_5745_000_with_camera_labels/ghost_task/images",
+  "annotations_zip": "data/cvat_bonus/training_segment-10072231702153043603_5725_000_5745_000_with_camera_labels/ghost_task/annotations_mot.zip",
+  "annotation_rows": 8
+}

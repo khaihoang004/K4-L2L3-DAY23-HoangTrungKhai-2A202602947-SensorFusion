@@ -1,0 +1,69 @@
+{
+  "segment": "training_segment-1005081002024129653_5313_150_5333_150_with_camera_labels.tfrecord",
+  "frames": [
+    0,
+    198
+  ],
+  "seed": 0,
+  "perturbation": "T_sensor_to_vehicle = Rz(vehicle yaw) @ T_original",
+  "diagnostic_definition": "For each confirmed track visible to camera with >=1 FRONT observation, select the measurement having minimum squared Mahalanobis distance. Record its pixel innovation norm and whether every candidate fails the chi-square gate. Accepted innovation is measured immediately before each actual camera EKF update.",
+  "baseline_matches_graded_log": true,
+  "results": [
+    {
+      "yaw_offset_degrees": 0.0,
+      "rmse_m": 0.13586677824355617,
+      "matches": 502,
+      "sum_sq_err_m2": 9.266810278002401,
+      "ghost_track_frames": 0,
+      "missed_gt_frames": 239,
+      "camera_updates": 509,
+      "mean_accepted_innovation_px": 16.679525380059648,
+      "candidate_probes": 490,
+      "mean_best_candidate_innovation_px": 14.984782757440465,
+      "gate_rejected_tracks": 6,
+      "gate_reject_fraction": 0.012244897959183673
+    },
+    {
+      "yaw_offset_degrees": 1.0,
+      "rmse_m": 0.17380845250008373,
+      "matches": 502,
+      "sum_sq_err_m2": 15.16510783655788,
+      "ghost_track_frames": 0,
+      "missed_gt_frames": 239,
+      "camera_updates": 20,
+      "mean_accepted_innovation_px": 95.62209478635832,
+      "candidate_probes": 493,
+      "mean_best_candidate_innovation_px": 50.573685403528565,
+      "gate_rejected_tracks": 480,
+      "gate_reject_fraction": 0.973630831643002
+    },
+    {
+      "yaw_offset_degrees": 3.0,
+      "rmse_m": 0.17356115881548648,
+      "matches": 502,
+      "sum_sq_err_m2": 15.121984876386009,
+      "ghost_track_frames": 0,
+      "missed_gt_frames": 239,
+      "camera_updates": 17,
+      "mean_accepted_innovation_px": 121.16989709186846,
+      "candidate_probes": 497,
+      "mean_best_candidate_innovation_px": 101.47592064884581,
+      "gate_rejected_tracks": 487,
+      "gate_reject_fraction": 0.9798792756539235
+    },
+    {
+      "yaw_offset_degrees": 5.0,
+      "rmse_m": 0.15980198516052463,
+      "matches": 502,
+      "sum_sq_err_m2": 12.819410579544758,
+      "ghost_track_frames": 0,
+      "missed_gt_frames": 239,
+      "camera_updates": 42,
+      "mean_accepted_innovation_px": 52.0895594485508,
+      "candidate_probes": 500,
+      "mean_best_candidate_innovation_px": 106.74555383164213,
+      "gate_rejected_tracks": 471,
+      "gate_reject_fraction": 0.942
+    }
+  ]
+}
