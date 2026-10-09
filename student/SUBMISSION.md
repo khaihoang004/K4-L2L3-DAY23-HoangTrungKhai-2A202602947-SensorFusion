@@ -8,7 +8,7 @@
 - MSSV: 2A202602947
 - Email: khaihoang004@gmail.com
 - Link repo (fork): https://github.com/khaihoang004/K4-L2L3-DAY23-HoangTrungKhai-2A202602947-SensorFusion
-- Commit hash nộp (`git rev-parse HEAD`): Lấy từ lệnh này sau commit cuối và ghi cùng link repo trên LMS; không thể ghi hash của chính commit hiện hành vào file này.
+- Commit hash nộp (`git rev-parse HEAD`): 1950f51146abbfa4990c0b6ac5de3cd879b5e24d
 
 ## Tóm tắt kết quả
 
@@ -85,4 +85,4 @@ Ghi rõ, kể cả khi không dùng ("Không dùng AI"). Xem [RULES.md](../RULES
 - [x] Đã điền đủ file này, gồm số liệu thực nghiệm và khai báo AI
 - [x] Không commit dữ liệu Waymo, weights, `paths.yaml`, API key
 - [x] `python tools/check_submission.py` báo `KẾT QUẢ: SẴN SÀNG NỘP`
-- [ ] Đã push và nộp link repo + commit hash trên LMS ([hướng dẫn nộp](../SUBMISSION.md))
+- [X] Đã push và nộp link repo + commit hash trên LMS ([hướng dẫn nộp](../SUBMISSION.md))
